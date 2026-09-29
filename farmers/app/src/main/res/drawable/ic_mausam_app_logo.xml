@@ -1,0 +1,175 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Guide Ring -->
+    <path
+        android:strokeColor="#30FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M100,20 A80,80 0 1,0 100,180 A80,80 0 1,0 100,20 Z" />
+
+    <!-- Between Node Dots -->
+    <path android:fillColor="#80FFFFFF" android:pathData="M125,32 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#80FFFFFF" android:pathData="M168,75 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#80FFFFFF" android:pathData="M168,125 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#80FFFFFF" android:pathData="M125,168 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#80FFFFFF" android:pathData="M75,168 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#80FFFFFF" android:pathData="M32,125 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#80FFFFFF" android:pathData="M32,75 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#80FFFFFF" android:pathData="M75,32 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- 8 Radiating Petals/Spokes (connecting center to 8 outer nodes) -->
+
+    <!-- Top Petal (Grey - Commuters/Bus) -->
+    <path
+        android:fillColor="#546E7A"
+        android:pathData="M88,80 Q100,35 112,80 Z" />
+
+    <!-- Top-Right Petal (Purple - Flag/Events) -->
+    <path
+        android:fillColor="#8E24AA"
+        android:pathData="M110,72 Q146,54 128,90 Z" />
+
+    <!-- Right Petal (Red - Heart/Health) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M120,88 Q165,100 120,112 Z" />
+
+    <!-- Bottom-Right Petal (Orange - Lightning) -->
+    <path
+        android:fillColor="#FB8C00"
+        android:pathData="M128,110 Q146,146 110,128 Z" />
+
+    <!-- Bottom Petal (Cyan - Waves/Beach) -->
+    <path
+        android:fillColor="#00ACC1"
+        android:pathData="M112,120 Q100,165 88,120 Z" />
+
+    <!-- Bottom-Left Petal (Indigo - Paper Plane/Travel) -->
+    <path
+        android:fillColor="#5E35B1"
+        android:pathData="M72,110 Q54,146 90,128 Z" />
+
+    <!-- Left Petal (Pink - Berries/Family) -->
+    <path
+        android:fillColor="#D81B60"
+        android:pathData="M80,112 Q35,100 80,88 Z" />
+
+    <!-- Top-Left Petal (Green - Leaf/Agri) -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M72,90 Q54,54 90,72 Z" />
+
+    <!-- Center Main Sphere (Blue Weather Globe) -->
+    <path
+        android:fillColor="#0D3B66"
+        android:pathData="M100,100 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+    <path
+        android:fillColor="#1D5288"
+        android:pathData="M100,100 m-38,0 a38,38 0 1,0 76,0 a38,38 0 1,0 -76,0" />
+
+    <!-- Sun in Center -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M100,80 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0" />
+
+    <!-- White Clouds in Center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M84,95 C84,91 88,88 92,88 C94,85 99,85 102,88 C105,86 110,87 112,90 C116,90 118,94 116,97 C118,100 115,103 111,103 L88,103 C84,103 82,99 84,95 Z" />
+
+    <!-- Tri-Color Arc at Bottom of Globe -->
+    <!-- Orange Arc Layer -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M65,115 C75,135 125,135 135,115 C130,138 70,138 65,115 Z" />
+    <!-- White Arc Layer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,118 C77,136 123,136 132,118 C128,138 72,138 68,118 Z" />
+    <!-- Green Arc Layer -->
+    <path
+        android:fillColor="#138808"
+        android:pathData="M71,121 C79,137 121,137 129,121 C126,138 74,138 71,121 Z" />
+
+
+    <!-- 8 Outer White Node Circles with Icons -->
+
+    <!-- Node 1: Top (Commuter / Bus) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,28 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+    <!-- Bus Icon -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M92,23 C92,21.5 93.5,21 95,21 L105,21 C106.5,21 108,21.5 108,23 L108,31 C108,32 107,33 106,33 L106,34 C106,34.5 105.5,35 105,35 L104,35 C103.5,35 103,34.5 103,34 L103,33 L97,33 L97,34 C97,34.5 96.5,35 96,35 L95,35 C94.5,35 94,34.5 94,34 L94,33 C93,33 92,32 92,31 Z M94,24 L106,24 L106,27 L94,27 Z" />
+
+    <!-- Node 2: Top-Right (Event Flag) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M150,50 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+    <!-- Flag Icon -->
+    <path
+        android:fillColor="#8E24AA"
+        android:pathData="M144,42 L144,58 L146,58 L146,52 L155,49 L146,45 L146,42 Z" />
+
+    <!-- Node 3: Right (Health / Heart) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M172,100 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+    <!-- Heart Icon -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M172,106 L164,98 C161,95 161,91 164,88 C167,85 170,86 172,89 C174,86 177,85 180,88 C183,91 183,95 180,98 Z" />
+
+    <!-- Node 4: Bottom-Right (Power / Lightning) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M150,150 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+    <!-- Lightning Bolt Icon -->
+    <path
+        android:fillColor="#FB8C00"
+        android:pathData="M151,140 L144,151 L149,151 L147,160 L156,148 L151,148 Z" />
+
+    <!-- Node 5: Bottom (Beach / Waves) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,172 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+    <!-- Waves Icon -->
+    <path
+        android:strokeColor="#00ACC1"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M92,169 Q96,165 100,169 T108,169 M92,175 Q96,171 100,175 T108,175" />
+
+    <!-- Node 6: Bottom-Left (Paper Plane / Travel) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,150 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+    <!-- Paper Plane Icon -->
+    <path
+        android:fillColor="#5E35B1"
+        android:pathData="M42,150 L58,142 L52,158 L49,152 Z" />
+
+    <!-- Node 7: Left (Berries / Family) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,100 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+    <!-- Berries / 3 Dots Icon -->
+    <path android:fillColor="#D81B60" android:pathData="M23,103 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+    <path android:fillColor="#D81B60" android:pathData="M33,103 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+    <path android:fillColor="#D81B60" android:pathData="M28,95 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+
+    <!-- Node 8: Top-Left (Leaf / Agriculture) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,50 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+    <!-- Leaf Icon -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M44,56 C44,46 56,44 56,44 C56,44 54,56 44,56 Z M44,56 L52,48" />
+
+</vector>

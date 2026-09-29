@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Farmers" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorSecondary">@color/accent_gold</item>
+        <item name="android:statusBarColor">@color/primary_green_dark</item>
+        <item name="android:navigationBarColor">@color/bg_light</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="Theme.Farmers" parent="Base.Theme.Farmers" />
+
+    <!-- Splash Theme -->
+    <style name="Theme.Farmers.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/primary_green_dark</item>
+        <item name="android:windowBackground">@color/primary_green</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background resembling stormy/rainy sky -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#1E2A38"
+                android:centerColor="#2C3E50"
+                android:endColor="#101820"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Translucent Rain Droplets Layer -->
+    <item>
+        <vector
+            android:width="360dp"
+            android:height="640dp"
+            android:viewportWidth="360"
+            android:viewportHeight="640">
+
+            <!-- Raindrops / droplets simulation -->
+            <!-- Large soft bokeh circles -->
+            <path
+                android:fillColor="#1DFFFFFF"
+                android:pathData="M80,120 m-25,0 a25,25 0 1,0 50,0 a25,25 0 1,0 -50,0" />
+            <path
+                android:fillColor="#15FFFFFF"
+                android:pathData="M290,160 m-35,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0" />
+            <path
+                android:fillColor="#18FFFFFF"
+                android:pathData="M220,90 m-18,0 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0" />
+            <path
+                android:fillColor="#12FFFFFF"
+                android:pathData="M50,420 m-40,0 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0" />
+            <path
+                android:fillColor="#1AFFFFFF"
+                android:pathData="M310,480 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+            <path
+                android:fillColor="#10FFFFFF"
+                android:pathData="M180,560 m-45,0 a45,45 0 1,0 90,0 a45,45 0 1,0 -90,0" />
+
+            <!-- Slanted Rain Streak Lines -->
+            <path
+                android:strokeColor="#30FFFFFF"
+                android:strokeWidth="1.5"
+                android:pathData="M40,50 L30,90 M100,20 L90,60 M180,30 L170,70 M250,10 L240,50 M320,40 L310,80" />
+            <path
+                android:strokeColor="#25FFFFFF"
+                android:strokeWidth="1.2"
+                android:pathData="M20,180 L10,220 M140,200 L130,240 M260,210 L250,250 M340,190 L330,230" />
+            <path
+                android:strokeColor="#35FFFFFF"
+                android:strokeWidth="1.8"
+                android:pathData="M60,330 L50,380 M160,310 L150,360 M240,340 L230,390 M300,300 L290,350" />
+            <path
+                android:strokeColor="#28FFFFFF"
+                android:strokeWidth="1.4"
+                android:pathData="M30,500 L20,540 M110,480 L100,520 M200,520 L190,560 M280,490 L270,530" />
+        </vector>
+    </item>
+</layer-list>

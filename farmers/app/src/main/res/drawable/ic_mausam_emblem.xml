@@ -1,0 +1,111 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="140dp"
+    android:height="160dp"
+    android:viewportWidth="140"
+    android:viewportHeight="160">
+
+    <!-- Ashoka Lion Emblem Top (Gold/Yellow) -->
+    <!-- Lion Head Left -->
+    <path
+        android:fillColor="#E6A100"
+        android:pathData="M58,22 C56,18 58,12 64,10 C68,9 70,12 70,15 C70,12 72,9 76,10 C82,12 84,18 82,22 C80,26 77,28 70,29 C63,28 60,26 58,22 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M65,14 C67,12 73,12 75,14 C77,17 76,21 70,23 C64,21 63,17 65,14 Z" />
+
+    <!-- Center Lion -->
+    <path
+        android:fillColor="#E6A100"
+        android:pathData="M63,10 C63,5 67,2 70,2 C73,2 77,5 77,10 C77,14 74,17 70,18 C66,17 63,14 63,10 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M66,8 C66,5 68,4 70,4 C72,4 74,5 74,8 C74,11 72,12 70,12 C68,12 66,11 66,8 Z" />
+
+    <!-- Pillar Top / Abacus -->
+    <path
+        android:fillColor="#E6A100"
+        android:pathData="M52,28 L88,28 L86,34 L54,34 Z" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M54,29 L86,29 L85,32 L55,32 Z" />
+
+    <!-- Ashoka Chakra Center -->
+    <path
+        android:fillColor="#003366"
+        android:pathData="M70,31 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Satyameva Jayate Banner Base -->
+    <path
+        android:fillColor="#D48800"
+        android:pathData="M48,34 L92,34 L90,38 L50,38 Z" />
+
+    <!-- Outer Circular Badge Border (Gold Ring) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M70,42 C94.85,42 115,62.15 115,87 C115,111.85 94.85,132 70,132 C45.15,132 25,111.85 25,87 C25,62.15 45.15,42 70,42 Z" />
+
+    <!-- Outer Circular Badge Inner Fill (Navy Blue) -->
+    <path
+        android:fillColor="#0B3C6D"
+        android:pathData="M70,46 C92.64,46 111,64.36 111,87 C111,109.64 92.64,128 70,128 C47.36,128 29,109.64 29,87 C29,64.36 47.36,46 70,46 Z" />
+
+    <!-- Inner Gold Ring -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M70,52 C89.33,52 105,67.67 105,87 C105,106.33 89.33,122 70,122 C50.67,122 35,106.33 35,87 C35,67.67 50.67,52 70,52 Z" />
+
+    <!-- Light Blue Inner Map Background -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M70,56 C87.12,56 101,69.88 101,87 C101,104.12 87.12,118 70,118 C52.88,118 39,104.12 39,87 C39,69.88 52.88,56 70,56 Z" />
+
+    <!-- India Map Silhouette / Meteorological Symbol inside -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M68,62 L73,65 L76,70 L82,73 L84,79 L80,85 L76,88 L78,96 L74,106 L70,110 L68,102 L64,98 L62,90 L64,84 L60,78 L64,72 L66,66 Z" />
+
+    <!-- Wind / Weather Isobar Lines across map -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M44,75 Q70,68 96,75" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M42,87 Q70,80 98,87" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M44,99 Q70,92 96,99" />
+
+    <!-- Sun rays overlay in upper circular section -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M70,56 L72,64 L68,64 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M85,61 L83,68 L79,66 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M55,61 L61,66 L57,68 Z" />
+
+    <!-- Bottom Ribbon - Orange, White, Green Tri-color -->
+    <!-- Left Orange Ribbon Segment -->
+    <path
+        android:fillColor="#FF6D00"
+        android:pathData="M22,126 L48,124 L44,142 L18,140 Z" />
+    <!-- Center Red Ribbon Segment -->
+    <path
+        android:fillColor="#D50000"
+        android:pathData="M44,124 L96,124 L92,144 L48,144 Z" />
+    <!-- Right Green Ribbon Segment -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M92,124 L118,126 L122,140 L96,142 Z" />
+
+    <!-- Ribbon Fold Shadow -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M48,144 L92,144 L90,148 L50,148 Z" />
+
+</vector>

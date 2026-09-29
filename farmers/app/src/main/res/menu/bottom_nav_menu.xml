@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_nav_weather"
+        android:title="@string/nav_weather" />
+
+    <item
+        android:id="@+id/navigation_agent"
+        android:icon="@drawable/ic_nav_agent"
+        android:title="@string/nav_agent" />
+</menu>

@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">हवामान</string>
+    <string name="mausam_title">हवामान</string>
+    <string name="unified_mobile_app">एकात्मिक मोबाइल ॲप</string>
+    <string name="imd_department">भारतीय हवामान विभाग</string>
+    <string name="imd_emblem_desc">भारतीय हवामान विभाग बोधचिन्ह</string>
+    <string name="login_with_email">ईमेल</string>
+    <string name="login_with_phone">फोन नंबर</string>
+    <string name="login_mode">लॉग इन</string>
+    <string name="signup_mode">साइन अप</string>
+    <string name="confirm_password">पासवर्डची पुष्टी करा</string>
+    <string name="dont_have_account">खाते नाही का? साइन अप करा</string>
+    <string name="already_have_account">आधीच खाते आहे का? लॉग इन करा</string>
+    <string name="login_header_desc">हवामान आणि शेतीसाठी एकात्मिक ॲप</string>
+    <string name="sign_in">साइन इन करा</string>
+    <string name="select_login_method">लॉगिन पद्धत निवडा:</string>
+    <string name="email_address">ईमेल पत्ता</string>
+    <string name="phone_number">फोन नंबर</string>
+    <string name="password_pin">पासवर्ड</string>
+    <string name="logged_in_as">लॉग इन: %1$s</string>
+    <string name="logout_text">लॉग आउट / खाते बदला</string>
+
+    <!-- Language Selection -->
+    <string name="language">भाषा</string>
+    <string name="select_language">भाषा निवडा</string>
+    <string name="lang_english">English (इंग्रजी)</string>
+    <string name="lang_hindi">हिन्दी (हिंदी)</string>
+    <string name="lang_marathi">मराठी (Marathi)</string>
+    <string name="language_updated">भाषा यशस्वीरीत्या बदलली गेली!</string>
+
+    <!-- Navigation -->
+    <string name="nav_weather">हवामान</string>
+    <string name="nav_soil">माती</string>
+    <string name="nav_crops">पिके</string>
+    <string name="nav_garden">बागकाम</string>
+    <string name="nav_sunlight">सूर्य व अतिनील</string>
+    <string name="nav_alerts">इशारे</string>
+    <string name="nav_farm">विश्लेषण</string>
+    <string name="nav_agent">एआय सल्लागार</string>
+    <string name="nav_settings">सेटिंग्ज</string>
+
+    <!-- Personas / User Types -->
+    <string name="user_type_heading">तुमची जीवनशैली किंवा कार्यक्षेत्र निवडा</string>
+    <string name="persona_health">आरोग्य जागरूक</string>
+    <string name="persona_fitness">मैदानी तंदुरुस्ती (फिटनेस)</string>
+    <string name="persona_beach">समुद्रकिनारा व सर्फर्स</string>
+    <string name="persona_travel">प्रवासी</string>
+    <string name="persona_parents">पालक व कुटुंबीय</string>
+    <string name="persona_agri">शेती व बागकाम</string>
+    <string name="persona_commuter">दैनिक प्रवासी</string>
+    <string name="persona_events">इव्हेंट प्लॅनर</string>
+    <string name="explore_dashboard">डॅशबोर्ड उघडा →</string>
+
+    <!-- Weather Dashboard -->
+    <string name="current_weather">सद्य हवामान</string>
+    <string name="hourly_forecast">तासनिहाय अंदाज (पुढील २४ तास)</string>
+    <string name="weekly_forecast">७-दिवसीय कृषी हवामान अंदाज</string>
+    <string name="humidity">हवेतील आर्द्रता</string>
+    <string name="wind">वाऱ्याचा वेग</string>
+    <string name="pressure">हवेचा दाब</string>
+    <string name="rain_prob">पावसाची शक्यता</string>
+    <string name="uv_index">अतिनील किरण निर्देशांक (UV)</string>
+    <string name="feels_like">भासणारे तापमान: %1$s</string>
+    <string name="detecting_location">स्थानाचा शोध घेत आहे...</string>
+
+    <!-- Health & AQI Section -->
+    <string name="health_aqi_title">हवेची गुणवत्ता आणि श्वसन आरोग्य</string>
+    <string name="cpcb_standard">सीपीसीबी राष्ट्रीय मानक</string>
+    <string name="air_quality_index">हवा गुणवत्ता निर्देशांक (AQI)</string>
+    <string name="pollen_breakdown">परागकण आणि ॲलर्जी घटक</string>
+    <string name="grass_pollen">गवताचे परागकण</string>
+    <string name="tree_pollen">झाडांचे परागकण</string>
+    <string name="weed_pollen">तणांचे परागकण</string>
+    <string name="sensitive_groups_advisory">संवेदनशील गटांसाठी आरोग्य सल्ला</string>
+    <string name="asthma_advisory">दमा व श्वसन विकार</string>
+    <string name="elderly_advisory">ज्येष्ठ नागरिक व बालके</string>
+    <string name="mask_advisory">मास्क वापरण्याचा सल्ला</string>
+
+    <!-- AQI Categories -->
+    <string name="aqi_good">उत्तम (०–५०)</string>
+    <string name="aqi_satisfactory">समाधानकारक (५१–१००)</string>
+    <string name="aqi_moderate">मध्यम (१०१–२००)</string>
+    <string name="aqi_poor">वाईट (२०१–३००)</string>
+    <string name="aqi_very_poor">अतिशय वाईट (३०१–४००)</string>
+    <string name="aqi_severe">घातक (४०१–५००)</string>
+
+    <!-- Outdoor Fitness Section -->
+    <string name="fitness_title">मैदानी व्यायाम व तंदुरुस्ती अंदाज</string>
+    <string name="fitness_score">व्यायाम अनुकूलता गुण</string>
+    <string name="hydration_loss">अपेक्षित घाम व पाण्याची कमतरता</string>
+    <string name="heat_strain">उष्णतेचा ताण</string>
+    <string name="cycling_wind">सायकल चालवताना वाऱ्याचा रोध</string>
+    <string name="uv_safe_exposure">उन्हात सुरक्षित राहण्याची वेळ</string>
+    <string name="sport_running">धावणे (रनिंग)</string>
+    <string name="sport_cycling">सायकलिंग</string>
+    <string name="sport_walking">जलद चालणे (मॉर्निंग वॉक)</string>
+    <string name="sport_hiit">मैदानी कसरत</string>
+
+    <!-- Beach & Surfers Section -->
+    <string name="beach_title">किनारपट्टी व सागरी हवामान</string>
+    <string name="beach_flag">किनारा सुरक्षा निशाण</string>
+    <string name="wave_height">लाटांची अपेक्षित उंची</string>
+    <string name="water_temp">समुद्राचे अपेक्षित तापमान</string>
+    <string name="sunburn_risk">सनबर्नचा धोका</string>
+    <string name="surfing_condition">सर्फिंग व वाऱ्याची स्थिती</string>
+
+    <!-- Travel & Highway Section -->
+    <string name="travel_title">महामार्ग व प्रवास सुरक्षा</string>
+    <string name="road_status">रस्त्याची स्थिती</string>
+    <string name="visibility_range">दृश्यमानता (विझिबिलिटी)</string>
+    <string name="braking_distance">ब्रेकिंग अंतर गुणक</string>
+    <string name="crosswinds">महामार्गावरील आडवे वारे</string>
+    <string name="fog_hazard">धुके व प्रदूषणाचा धोका</string>
+    <string name="travel_checklist">प्रवासापूर्वीची सुरक्षा यादी</string>
+
+    <!-- Parents & Families Section -->
+    <string name="parents_title">मुले आणि कुटुंब हवामान काळजी</string>
+    <string name="child_safety_score">खेळाचे मैदान अनुकूलता गुण</string>
+    <string name="clothing_advice">मुलांच्या कपड्यांचा सल्ला</string>
+    <string name="playground_window">खेळण्यासाठी सर्वोत्तम वेळ</string>
+    <string name="stroller_walk">स्ट्रोलर फिरवण्याची अनुकूलता</string>
+    <string name="sun_protection">उन्हापासून संरक्षण</string>
+    <string name="indoor_activities">घरातील मनोरंजक खेळ व कल्पना</string>
+
+    <!-- Commuters Section -->
+    <string name="commuter_title">दैनिक प्रवास व वाहतूक प्रवाह</string>
+    <string name="commute_score">प्रवास सुलभता गुण</string>
+    <string name="morning_commute">सकाळची वेळ (७:०० – १०:०० AM)</string>
+    <string name="evening_commute">संध्याकाळची वेळ (५:०० – ८:०० PM)</string>
+    <string name="umbrella_required">छत्री सोबत हवी का?</string>
+    <string name="bike_safety">दुचाकी व सायकल सुरक्षा</string>
+
+    <!-- Event Planner Section -->
+    <string name="event_planner_title">इव्हेंट हवामान नियोजन व बुद्धिमत्ता</string>
+    <string name="event_comfort_index">पाहुण्यांचा आराम निर्देशांक</string>
+    <string name="event_risk_score">मैदानी कार्यक्रमाचा जोखीम दर</string>
+    <string name="rain_probability_heading">पावसाची शक्यता व वेळ</string>
+    <string name="wind_safety_tents">मंडप व स्टेजवर वाऱ्याचा भार</string>
+    <string name="golden_hour">सुवर्ण तास (उत्तम फोटोग्राफी)</string>
+    <string name="best_event_window">कार्यक्रमाची सर्वोत्तम वेळ</string>
+    <string name="wedding_tips_title">लग्नसमारंभ हवामान दक्षता</string>
+
+    <!-- Soil -->
+    <string name="soil_title">मातीतील ओलावा आणि सिंचन</string>
+    <string name="soil_surface">वरचा थर (०–७ सेमी)</string>
+    <string name="soil_root">मुळांचा भाग (७–२८ सेमी)</string>
+    <string name="soil_deep">खोल मातीचा थर (२८–१०० सेमी)</string>
+    <string name="irrigation_advice">सिंचन सल्ला</string>
+
+    <!-- Crops -->
+    <string name="crops_title">माझी पिके आणि शेतजमीन</string>
+    <string name="add_crop">पीक जोडा</string>
+    <string name="crop_name">पिकाचे नाव</string>
+    <string name="crop_variety">वाण (पर्यायी)</string>
+    <string name="sow_date">पेरणीची तारीख</string>
+    <string name="harvest_date">अपेक्षित काढणी तारीख</string>
+    <string name="crop_area">शेताचे क्षेत्रफळ (एकर)</string>
+    <string name="crop_notes">शेतातील नोंदी व निरीक्षणे</string>
+    <string name="save_crop">पीक जतन करा</string>
+    <string name="harvest_in">काढणीस बाकी</string>
+    <string name="days">दिवस</string>
+
+    <!-- Garden -->
+    <string name="garden_title">घरची बाग (गार्डन)</string>
+    <string name="garden_care">आजची बागकाम काळजी</string>
+    <string name="sunlight_available">उपलब्ध सूर्यप्रकाश</string>
+
+    <!-- Smart Agent -->
+    <string name="agent_title">ॲग्रीस्मार्ट एआय सल्लागार</string>
+    <string name="agent_hint">पिके, कीड, माती किंवा हवामानाबद्दल विचारा...</string>
+    <string name="send">पाठवा</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">हवामान व नैसर्गिक आपत्ती इशारे</string>
+    <string name="rain_alerts">पावसाचा इशारा</string>
+    <string name="wind_alerts">वाऱ्याचा इशारा</string>
+    <string name="rain_threshold">पाऊस सूचना मर्यादा (मिमी/दिवस)</string>
+    <string name="wind_threshold">वादळी वाऱ्याची मर्यादा (किमी/तास)</string>
+
+    <!-- Analysis -->
+    <string name="analysis_title">शेती विश्लेषण व GDD</string>
+    <string name="gdd_calculator">वाढ पदवी दिवस (GDD)</string>
+    <string name="water_requirement">बाष्पीभवन-उत्सर्जन (ET₀)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">ॲप सेटिंग्ज</string>
+    <string name="farm_name">शेताचे / व्यवसायाचे नाव</string>
+    <string name="farmer_name">वापरकर्ता / शेतकऱ्याचे नाव</string>
+    <string name="city_search_hint">शहराचे नाव प्रविष्ट करा (उदा. पुणे, नाशिक, नागपूर)</string>
+    <string name="search_city">शहर शोधा</string>
+    <string name="gps_detect">जीपीएस द्वारे स्थान मिळवा</string>
+    <string name="save_settings">प्राधान्ये जतन केली</string>
+    <string name="gemini_key_hint">गुगल जेमिनी एपीआय की (पर्यायी)</string>
+
+    <!-- Profile / Event Planner Preferences -->
+    <string name="profile_title">इव्हेंट प्राधान्ये</string>
+    <string name="profile_name_hint">प्लॅनर / संस्थेचे नाव</string>
+    <string name="profile_location_hint">डीफॉल्ट इव्हेंट शहर / प्रदेश</string>
+    <string name="primary_event_type">प्राथमिक इव्हेंट प्रकार:</string>
+    <string name="temperature_unit">तापमान एकक:</string>
+    <string name="wind_speed_unit">वाऱ्याच्या वेगाचे एकक:</string>
+    <string name="notification_preferences">सूचना प्राधान्ये:</string>
+    <string name="weather_condition_alerts">हवामान स्थिती इशारे</string>
+    <string name="rain_warnings">पाऊस व पर्जन्य इशारे</string>
+    <string name="wind_storm_advisory">जोरदार वारे व वादळ सल्ला</string>
+    <string name="save_preferences">प्राधान्ये जतन करा</string>
+    <string name="name_empty_error">नाव रिकामे असू शकत नाही</string>
+    <string name="location_empty_error">डीफॉल्ट स्थान रिकामे असू शकत नाही</string>
+
+    <!-- Personalization -->
+    <string name="good_morning">शुभ प्रभात</string>
+    <string name="good_afternoon">शुभ दुपार</string>
+    <string name="good_evening">शुभ संध्याकाळ</string>
+    <string name="personalized_greeting">%1$s, %2$s! 👋</string>
+    <string name="todays_tip">आजचा सल्ला</string>
+    <string name="weather_summary_for">%1$s साठी हवामान सारांश</string>
+
+</resources>

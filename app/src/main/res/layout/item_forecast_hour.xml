@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="85dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/card_bg_light"
+    app:strokeColor="@color/card_stroke_light"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvHourTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14:00"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/ivHourIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:src="@drawable/ic_weather"
+            app:tint="@color/weather_sky_blue" />
+
+        <TextView
+            android:id="@+id/tvHourTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28°C"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHourRain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="10%"
+            android:textColor="@color/weather_rain"
+            android:textSize="11sp" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

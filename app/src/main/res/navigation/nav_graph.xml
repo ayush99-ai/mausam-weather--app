@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.farmers.ui.home.HomeFragment"
+        android:label="@string/nav_weather"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_soil"
+        android:name="com.example.farmers.ui.soil.SoilFragment"
+        android:label="@string/nav_soil"
+        tools:layout="@layout/fragment_soil" />
+
+    <fragment
+        android:id="@+id/navigation_crops"
+        android:name="com.example.farmers.ui.crops.CropsFragment"
+        android:label="@string/nav_crops"
+        tools:layout="@layout/fragment_crops" />
+
+    <fragment
+        android:id="@+id/navigation_garden"
+        android:name="com.example.farmers.ui.garden.GardenFragment"
+        android:label="@string/nav_garden"
+        tools:layout="@layout/fragment_garden" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.farmers.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_sunlight"
+        android:name="com.example.farmers.ui.sunlight.SunlightFragment"
+        android:label="@string/nav_sunlight"
+        tools:layout="@layout/fragment_sunlight" />
+
+    <fragment
+        android:id="@+id/navigation_alerts"
+        android:name="com.example.farmers.ui.alerts.AlertsFragment"
+        android:label="@string/nav_alerts"
+        tools:layout="@layout/fragment_alerts" />
+
+    <fragment
+        android:id="@+id/navigation_farm"
+        android:name="com.example.farmers.ui.farm.FarmFragment"
+        android:label="@string/nav_farm"
+        tools:layout="@layout/fragment_farm" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.farmers.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

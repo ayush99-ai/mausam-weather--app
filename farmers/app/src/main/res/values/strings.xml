@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Mausam</string>
+    <string name="mausam_title">Mausam</string>
+    <string name="unified_mobile_app">Unified Mobile App</string>
+    <string name="imd_department">India Meteorological Department</string>
+    <string name="imd_emblem_desc">India Meteorological Department Emblem</string>
+    <string name="login_with_email">Email</string>
+    <string name="login_with_phone">Phone Number</string>
+    <string name="login_mode">Login</string>
+    <string name="signup_mode">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="login_header_desc">Unified Mobile App for Weather &amp; Farming</string>
+    <string name="sign_in">Sign In</string>
+    <string name="select_login_method">Select login method below:</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password_pin">Password</string>
+    <string name="logged_in_as">Logged in as: %1$s</string>
+    <string name="logout_text">Logout / Switch Account</string>
+
+    <!-- Navigation -->
+    <string name="nav_weather">Weather</string>
+    <string name="nav_soil">Soil</string>
+    <string name="nav_crops">Crops</string>
+    <string name="nav_garden">Garden</string>
+    <string name="nav_sunlight">Sun &amp; UV</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_farm">Analytics</string>
+    <string name="nav_agent">AI Agent</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Weather Dashboard -->
+    <string name="current_weather">Current Weather</string>
+    <string name="hourly_forecast">Hourly Forecast (Next 24h)</string>
+    <string name="weekly_forecast">7-Day Agricultural Outlook</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="rain_prob">Rain Chance</string>
+    <string name="uv_index">UV Index</string>
+
+    <!-- Soil -->
+    <string name="soil_title">Soil Moisture &amp; Irrigation</string>
+    <string name="soil_surface">Surface (0–7 cm)</string>
+    <string name="soil_root">Root Zone (7–28 cm)</string>
+    <string name="soil_deep">Deep Subsoil (28–100 cm)</string>
+    <string name="irrigation_advice">Irrigation Advisory</string>
+
+    <!-- Crops -->
+    <string name="crops_title">My Crops &amp; Fields</string>
+    <string name="add_crop">Add Crop</string>
+    <string name="crop_name">Crop Name</string>
+    <string name="crop_variety">Variety (optional)</string>
+    <string name="sow_date">Sowing Date</string>
+    <string name="harvest_date">Expected Harvest Date</string>
+    <string name="crop_area">Field Area (Acres)</string>
+    <string name="crop_notes">Field Notes &amp; Observations</string>
+    <string name="save_crop">Save Crop</string>
+    <string name="harvest_in">Harvest in</string>
+    <string name="days">days</string>
+
+    <!-- Garden -->
+    <string name="garden_title">Garden Mode</string>
+    <string name="garden_care">Today\'s Garden Care</string>
+    <string name="sunlight_available">Available Sunlight</string>
+
+    <!-- Smart Agent -->
+    <string name="agent_title">AgriSmart AI Advisor</string>
+    <string name="agent_hint">Ask advice on crops, pests, soil, or weather...</string>
+    <string name="send">Send</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">Weather &amp; Hazard Alerts</string>
+    <string name="rain_alerts">Rain Alerts</string>
+    <string name="wind_alerts">Wind Alerts</string>
+    <string name="rain_threshold">Rain Notification Threshold (mm/day)</string>
+    <string name="wind_threshold">Wind Gust Threshold (km/h)</string>
+
+    <!-- Analysis -->
+    <string name="analysis_title">Farm Analytics &amp; GDD</string>
+    <string name="gdd_calculator">Growing Degree Days (GDD)</string>
+    <string name="water_requirement">Evapotranspiration (ET₀)</string>
+</resources>

@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Mausam</string>
+    <string name="mausam_title">Mausam</string>
+    <string name="unified_mobile_app">Unified Mobile App</string>
+    <string name="imd_department">India Meteorological Department</string>
+    <string name="imd_emblem_desc">India Meteorological Department Emblem</string>
+    <string name="login_with_email">Email</string>
+    <string name="login_with_phone">Phone Number</string>
+    <string name="login_mode">Login</string>
+    <string name="signup_mode">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="login_header_desc">Unified Mobile App for Weather &amp; Farming</string>
+    <string name="sign_in">Sign In</string>
+    <string name="select_login_method">Select login method below:</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password_pin">Password</string>
+    <string name="logged_in_as">Logged in as: %1$s</string>
+    <string name="logout_text">Logout / Switch Account</string>
+
+    <!-- Language Selection -->
+    <string name="language">Language</string>
+    <string name="select_language">Select Language / भाषा चुनें / भाषा निवडा</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिन्दी (Hindi)</string>
+    <string name="lang_marathi">मराठी (Marathi)</string>
+    <string name="language_updated">Language updated successfully!</string>
+
+    <!-- Navigation -->
+    <string name="nav_weather">Weather</string>
+    <string name="nav_soil">Soil</string>
+    <string name="nav_crops">Crops</string>
+    <string name="nav_garden">Garden</string>
+    <string name="nav_sunlight">Sun &amp; UV</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_farm">Analytics</string>
+    <string name="nav_agent">AI Agent</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Personas / User Types -->
+    <string name="user_type_heading">Select Your Lifestyle / Activity</string>
+    <string name="persona_health">Health conscious</string>
+    <string name="persona_fitness">Outdoor fitness</string>
+    <string name="persona_beach">Beachgoers &amp; surfers</string>
+    <string name="persona_travel">Traveler</string>
+    <string name="persona_parents">Parents &amp; families</string>
+    <string name="persona_agri">Agriculture &amp; gardener</string>
+    <string name="persona_commuter">Commuters</string>
+    <string name="persona_events">Event planners</string>
+    <string name="explore_dashboard">Explore Dashboard →</string>
+
+    <!-- Weather Dashboard -->
+    <string name="current_weather">Current Weather</string>
+    <string name="hourly_forecast">Hourly Forecast (Next 24h)</string>
+    <string name="weekly_forecast">7-Day Agricultural Outlook</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="rain_prob">Rain Chance</string>
+    <string name="uv_index">UV Index</string>
+    <string name="feels_like">Feels like: %1$s</string>
+    <string name="detecting_location">Detecting location...</string>
+
+    <!-- Health & AQI Section -->
+    <string name="health_aqi_title">Air Quality &amp; Respiratory Health</string>
+    <string name="cpcb_standard">CPCB National Standard</string>
+    <string name="air_quality_index">Air Quality Index (AQI)</string>
+    <string name="pollen_breakdown">Pollen &amp; Allergens</string>
+    <string name="grass_pollen">Grass Pollen</string>
+    <string name="tree_pollen">Tree Pollen</string>
+    <string name="weed_pollen">Weed Pollen</string>
+    <string name="sensitive_groups_advisory">Sensitive Groups Health Guide</string>
+    <string name="asthma_advisory">Asthma &amp; Bronchitis</string>
+    <string name="elderly_advisory">Elderly &amp; Children</string>
+    <string name="mask_advisory">Outdoor Mask Recommendation</string>
+
+    <!-- AQI Categories -->
+    <string name="aqi_good">Good (0–50)</string>
+    <string name="aqi_satisfactory">Satisfactory (51–100)</string>
+    <string name="aqi_moderate">Moderate (101–200)</string>
+    <string name="aqi_poor">Poor (201–300)</string>
+    <string name="aqi_very_poor">Very Poor (301–400)</string>
+    <string name="aqi_severe">Severe (401–500)</string>
+
+    <!-- Outdoor Fitness Section -->
+    <string name="fitness_title">Outdoor Fitness Intelligence</string>
+    <string name="fitness_score">Outdoor Workout Score</string>
+    <string name="hydration_loss">Estimated Fluid Loss</string>
+    <string name="heat_strain">Heat Strain Factor</string>
+    <string name="cycling_wind">Aerodynamic Wind Drag</string>
+    <string name="uv_safe_exposure">Safe Direct Sunlight Window</string>
+    <string name="sport_running">Running</string>
+    <string name="sport_cycling">Cycling</string>
+    <string name="sport_walking">Brisk Walk</string>
+    <string name="sport_hiit">Outdoor HIIT</string>
+
+    <!-- Beach & Surfers Section -->
+    <string name="beach_title">Coastal &amp; Marine Weather</string>
+    <string name="beach_flag">Beach Safety Flag</string>
+    <string name="wave_height">Estimated Wave / Swell</string>
+    <string name="water_temp">Estimated Sea Temperature</string>
+    <string name="sunburn_risk">Sunburn Risk Window</string>
+    <string name="surfing_condition">Surfing &amp; Wind Condition</string>
+
+    <!-- Travel & Highway Section -->
+    <string name="travel_title">Highway &amp; Transit Safety</string>
+    <string name="road_status">Road Surface Condition</string>
+    <string name="visibility_range">Forward Visibility</string>
+    <string name="braking_distance">Braking Distance Multiplier</string>
+    <string name="crosswinds">Highway Crosswinds</string>
+    <string name="fog_hazard">Fog &amp; Smog Hazard</string>
+    <string name="travel_checklist">Pre-Departure Safety Checklist</string>
+
+    <!-- Parents & Families Section -->
+    <string name="parents_title">Child &amp; Family Weather Care</string>
+    <string name="child_safety_score">Playground &amp; Park Score</string>
+    <string name="clothing_advice">Kids\' Outfit Recommendation</string>
+    <string name="playground_window">Best Playground Window</string>
+    <string name="stroller_walk">Stroller Walk Comfort</string>
+    <string name="sun_protection">Solar &amp; Dehydration Protection</string>
+    <string name="indoor_activities">Indoor Fun &amp; Creative Ideas</string>
+
+    <!-- Commuters Section -->
+    <string name="commuter_title">Daily Transit &amp; Commute Flow</string>
+    <string name="commute_score">Daily Commute Score</string>
+    <string name="morning_commute">Morning Rush (7:00 – 10:00 AM)</string>
+    <string name="evening_commute">Evening Rush (5:00 – 8:00 PM)</string>
+    <string name="umbrella_required">Carry Umbrella?</string>
+    <string name="bike_safety">Two-Wheeler &amp; Bike Safety</string>
+
+    <!-- Event Planner Section -->
+    <string name="event_planner_title">Event Weather Intelligence</string>
+    <string name="event_comfort_index">Guest Comfort Index</string>
+    <string name="event_risk_score">Outdoor Event Risk Index</string>
+    <string name="rain_probability_heading">Rain Probability &amp; Timing</string>
+    <string name="wind_safety_tents">Tent &amp; Backdrop Wind Load</string>
+    <string name="golden_hour">Golden Hour (Best Photography)</string>
+    <string name="best_event_window">Prime Event Window</string>
+    <string name="wedding_tips_title">Wedding &amp; Ceremony Precautions</string>
+
+    <!-- Soil -->
+    <string name="soil_title">Soil Moisture &amp; Irrigation</string>
+    <string name="soil_surface">Surface (0–7 cm)</string>
+    <string name="soil_root">Root Zone (7–28 cm)</string>
+    <string name="soil_deep">Deep Subsoil (28–100 cm)</string>
+    <string name="irrigation_advice">Irrigation Advisory</string>
+
+    <!-- Crops -->
+    <string name="crops_title">My Crops &amp; Fields</string>
+    <string name="add_crop">Add Crop</string>
+    <string name="crop_name">Crop Name</string>
+    <string name="crop_variety">Variety (optional)</string>
+    <string name="sow_date">Sowing Date</string>
+    <string name="harvest_date">Expected Harvest Date</string>
+    <string name="crop_area">Field Area (Acres)</string>
+    <string name="crop_notes">Field Notes &amp; Observations</string>
+    <string name="save_crop">Save Crop</string>
+    <string name="harvest_in">Harvest in</string>
+    <string name="days">days</string>
+
+    <!-- Garden -->
+    <string name="garden_title">Garden Mode</string>
+    <string name="garden_care">Today\'s Garden Care</string>
+    <string name="sunlight_available">Available Sunlight</string>
+
+    <!-- Smart Agent -->
+    <string name="agent_title">AgriSmart AI Advisor</string>
+    <string name="agent_hint">Ask advice on crops, pests, soil, or weather...</string>
+    <string name="send">Send</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">Weather &amp; Hazard Alerts</string>
+    <string name="rain_alerts">Rain Alerts</string>
+    <string name="wind_alerts">Wind Alerts</string>
+    <string name="rain_threshold">Rain Notification Threshold (mm/day)</string>
+    <string name="wind_threshold">Wind Gust Threshold (km/h)</string>
+
+    <!-- Analysis -->
+    <string name="analysis_title">Farm Analytics &amp; GDD</string>
+    <string name="gdd_calculator">Growing Degree Days (GDD)</string>
+    <string name="water_requirement">Evapotranspiration (ET₀)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Application Settings</string>
+    <string name="farm_name">Farm / Enterprise Name</string>
+    <string name="farmer_name">User / Farmer Name</string>
+    <string name="city_search_hint">Enter city name (e.g. Pune, Delhi, Nagpur)</string>
+    <string name="search_city">Search City</string>
+    <string name="gps_detect">Detect via GPS</string>
+    <string name="save_settings">Preferences Saved</string>
+    <string name="gemini_key_hint">Google Gemini API Key (optional)</string>
+
+    <!-- Profile / Event Planner Preferences -->
+    <string name="profile_title">Event Preferences</string>
+    <string name="profile_name_hint">Planner / Organization Name</string>
+    <string name="profile_location_hint">Default Event City / Region</string>
+    <string name="primary_event_type">Primary Event Type:</string>
+    <string name="temperature_unit">Temperature Unit:</string>
+    <string name="wind_speed_unit">Wind Speed Unit:</string>
+    <string name="notification_preferences">Notification Preferences:</string>
+    <string name="weather_condition_alerts">Weather Condition Alerts</string>
+    <string name="rain_warnings">Precipitation &amp; Rain Warnings</string>
+    <string name="wind_storm_advisory">Severe Wind &amp; Storm Advisory</string>
+    <string name="save_preferences">Save Preferences</string>
+    <string name="name_empty_error">Name cannot be empty</string>
+    <string name="location_empty_error">Default location cannot be empty</string>
+
+    <!-- Personalization -->
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="personalized_greeting">%1$s, %2$s! 👋</string>
+    <string name="todays_tip">Today\'s Tip</string>
+    <string name="weather_summary_for">Weather summary for %1$s</string>
+
+</resources>
